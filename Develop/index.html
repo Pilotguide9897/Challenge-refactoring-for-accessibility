@@ -10,6 +10,7 @@
 <body>
     <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!--Div tags changed to nav tags-->
         <nav>
             <ul>
                 <li>
@@ -25,28 +26,37 @@
         </nav>
     </header>
 
-    <main>
-    <!--This is the section that contains the large image. That image is actually a background image with the source set in the CSS file.-->
-    <section class="hero" title="A collaborative team working together to make informed marketing decisions.">\</section> <!--Since this image is presented using CSS and I was unable to find a way to add alt text in CSS, i think that a suitable alternative might
-    be to use the title tag. As I understand, the title tag can be used when holding the cursor over an image and can be used by audio user agents to speak the title information in a similar context.-->
+    <!--This is the section that contains the large image background image set by the CSS file.-->
+    <section class="team" title="A collaborative team working together to make informed marketing decisions.">\</section> 
+    <!--Since this image is presented using CSS and the purpose of this assignment is to refactor the code,
+        I did not want to remove content from the CSS file to attempt to insert the image using HTML. 
+        Rather, I thought it a good opportunity to use the title tag, 
+        as what is written in the title tag can be used when holding 
+        the cursor over an image and can be used by audio user agents 
+        to speak the title information in a similar context.-->
     <!--What follows is the main body of the page.-->
     <main class="content">
-        <section class="search-engine-optimization">
-            <!--Adding alternative text is a good way to make image files more accessible to users.-->
+        <!--Section 1-->
+        <section id="search-engine-optimization">
+            <!--See the alt text added below.-->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="A Photo of a modern workspace with a notebook sitting on a table. On the notebook are the letters S - E - O, surrounded by the words Content, Backlink, Headings, Mobile Compatability, Social Media, and Link Building."/>
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
+        <!--Section 2-->
         <section id="online-reputation-management" class="online-reputation-management">
+            <!--See the alt text added below.-->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="A photo showing a person sitting at a desk with their phone and laptop before them. On the computer's screen are data visualizations showing improving reputation."/>
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
+        <!--Section 3-->
         <section id="social-media-marketing" class="social-media-marketing">
+            <!--See the alt text added below.-->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="A top-down image of people sitting at a table using laptops and tablets. On the table are icons and buzzwords related to social media, such as Tweet, Like, and Share."/>
             <h2>Social Media Marketing</h2>
             <p>
@@ -54,10 +64,11 @@
             </p>
         </section>
     </main>
-    <!--I thought that the bar along the side was best described by the aside tag.-->
+    <!--Aside tag introduced-->
     <aside class="benefits">
         <div class="benefit-lead">
             <h3>Lead Generation</h3>
+            <!--See the alt text added below.-->
             <img src="./assets/images/lead-generation.png" alt="An icon showing a gear, representing lead generation, being funneled into revenue." />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
@@ -65,6 +76,7 @@
         </div>
         <div class="benefit-brand">
             <h3>Brand Awareness</h3>
+            <!--See the alt text added below.-->
             <img src="./assets/images/brand-awareness.png" alt="An icon of a figure with a signal reaching their head, representing their awareness."/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
@@ -72,14 +84,15 @@
         </div>
         <div class="benefit-cost">
             <h3>Cost Management</h3>
+            <!--See the alt text added below.-->
             <img src="./assets/images/cost-management.png" alt="An icon of a gear with money symbols imposed in front."/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
     </aside>
-    <!--The demo that we are supposed to create does not display the footer information. As a result, I am unsure of whether to include it or not.
-    it would be possible to hide it from being read by the browser by using comments as I am doing here to write this.
+
+    <!--The demo that we are supposed to create does not display the footer information. Thus, I have elected to hide it using this comment.
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>

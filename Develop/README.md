@@ -11,7 +11,7 @@ Completing this project I learned much about several semantic HTML elements that
 No installation is required to use this application.
 
 ## Usage:
-To use this application, all that is required is a web-browser. Individuals may use this application as a resource to learn about the services that the Horiseon Marketing Agency provides its customers, as well as the benefits that partnering with them may entail.
+To use this application all that is required is a web-browser. Individuals may use this application as a resource to learn about the services that the Horiseon Marketing Agency provides its customers, as well as the benefits that partnering with them may entail. This application should be supported on all major browsers.
 
 ## Credits:
 Credit for the creation of most of the code in this repo goes to UNB College of Extended Learning Full Stack, part-time coding bootcamp.
